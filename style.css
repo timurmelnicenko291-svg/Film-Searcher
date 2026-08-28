@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #6B0000;
+    color: white;
+    padding: 1rem;
+}
+main{
+    background-color: #121212;
+}
+
+footer{
+    display: flex;
+    background-color: #121212;
+    color: white;
+    height: 150px;
+}
+
+.social-links{
+    display: flex;
+    background-color: #121212;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding-left: 20px;
+}
+
+.header_links{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 20px; 
+}
+
+.license{ 
+    display: flex;
+    color: white;
+    background-color: #121212;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
