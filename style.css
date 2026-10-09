@@ -74,6 +74,41 @@ header {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.search-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #1a1a1a;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    margin-top: 5px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.search-suggestions.active {
+    display: block;
+}
+
+.suggestion-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.suggestion-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.suggestion-item.highlighted {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
 .icon {
     width: 24px;
     height: 24px;
@@ -92,7 +127,7 @@ main {
     position: relative;
     height: 80vh;
     background-color:black;
-    background-image: url(#);
+    background-image: url(La_Casa_de_Papel_Showcase.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -170,27 +205,27 @@ main {
 }
 
 .movie-card:nth-child(1) .movie-thumbnail {
-    background-image: url();
+    background-image: url(jaws.jpg);
 }
 
 .movie-card:nth-child(2) .movie-thumbnail {
-    background-image: url();
+    background-image: url(casa_de_papel.jpg);
 }
 
 .movie-card:nth-child(3) .movie-thumbnail {
-    background-image: url();
+    background-image: url(bullet_train.jpg);
 }
 
 .movie-card:nth-child(4) .movie-thumbnail {
-    background-image: url();
+    background-image: url(matrix.jpg);
 }
 
 .movie-card:nth-child(5) .movie-thumbnail {
-    background-image: url();
+    background-image: url(superman.jpg);
 }
 
 .movie-card:nth-child(6) .movie-thumbnail {
-    background-image: url();
+    background-image: url(all_quiet_onthe_western_front.jpg);
 }
 
 .movie-carousel::-webkit-scrollbar {
@@ -264,4 +299,5 @@ footer {
     color: #b3b3b3;
     font-size: 13px;
     margin-top: 20px;
+    text-align: center;
 }
