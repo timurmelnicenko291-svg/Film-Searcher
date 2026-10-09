@@ -127,7 +127,7 @@ main {
     position: relative;
     height: 80vh;
     background-color:black;
-    background-image: url(#);
+    background-image: url(La_Casa_de_Papel_Showcase.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -205,27 +205,27 @@ main {
 }
 
 .movie-card:nth-child(1) .movie-thumbnail {
-    background-image: url();
+    background-image: url(jaws.jpg);
 }
 
 .movie-card:nth-child(2) .movie-thumbnail {
-    background-image: url();
+    background-image: url(casa_de_papel.jpg);
 }
 
 .movie-card:nth-child(3) .movie-thumbnail {
-    background-image: url();
+    background-image: url(bullet_train.jpg);
 }
 
 .movie-card:nth-child(4) .movie-thumbnail {
-    background-image: url();
+    background-image: url(matrix.jpg);
 }
 
 .movie-card:nth-child(5) .movie-thumbnail {
-    background-image: url();
+    background-image: url(superman.jpg);
 }
 
 .movie-card:nth-child(6) .movie-thumbnail {
-    background-image: url();
+    background-image: url(all_quiet_onthe_western_front.jpg);
 }
 
 .movie-carousel::-webkit-scrollbar {
@@ -299,4 +299,5 @@ footer {
     color: #b3b3b3;
     font-size: 13px;
     margin-top: 20px;
+    text-align: center;
 }
